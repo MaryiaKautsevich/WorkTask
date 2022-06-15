@@ -23,10 +23,10 @@ import internal.GlobalVariable
 public class DashboardTab {
 
 	def boolean isImageDisplayed() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/DashboardTab_OR/img'), 5)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/DashboardTab_OR/timesheetLabel'), 5)
 	}
 
 	def clickTimesheetBtn() {
-		WebUI.click(findTestObject('Object Repository/NewProjectTestCase_OR/DashboardTab_OR/img'));
+		WebUI.click(findTestObject('Object Repository/NewProjectTestCase_OR/DashboardTab_OR/timesheetLabel'));
 	}
 }

@@ -23,14 +23,14 @@ import internal.GlobalVariable
 public class TimesheetTab {
 
 	def clickViewBtn() {
-		WebUI.click(findTestObject('Object Repository/NewProjectTestCase_OR/TimesheetTab_OR/input__btnView'));
+		WebUI.click(findTestObject('Object Repository/NewProjectTestCase_OR/TimesheetTab_OR/viewBtn'));
 	}
 
 	def boolean isBtnDisplayed() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/TimesheetTab_OR/input__btnView'), 5);
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/TimesheetTab_OR/viewBtn'), 5);
 	}
 
 	def boolean isRequiredTextDisplayed() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/TimesheetTab_OR/span_Required'), 5);
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/TimesheetTab_OR/requiredText'), 5);
 	}
 }

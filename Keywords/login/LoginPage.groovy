@@ -23,14 +23,14 @@ import internal.GlobalVariable
 public class LoginPage {
 
 	def setLoginInField(String login) {
-		WebUI.setText(findTestObject('Object Repository/NewProjectTestCase_OR/LoginPage_OR/input_LOGIN Panel_txtUsername'), login);
+		WebUI.setText(findTestObject('Object Repository/NewProjectTestCase_OR/LoginPage_OR/loginField'), login);
 	}
 
 	def setPasswordInField(String password) {
-		WebUI.setText(findTestObject('Object Repository/NewProjectTestCase_OR/LoginPage_OR/input_Username_txtPassword'), password);
+		WebUI.setText(findTestObject('Object Repository/NewProjectTestCase_OR/LoginPage_OR/passwordField'), password);
 	}
 
 	def clickLoginBtn() {
-		WebUI.click(findTestObject('Object Repository/NewProjectTestCase_OR/LoginPage_OR/input_Password_Submit'));
+		WebUI.click(findTestObject('Object Repository/NewProjectTestCase_OR/LoginPage_OR/loginBtn'));
 	}
 }

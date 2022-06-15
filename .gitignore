@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-.gradle
-
 bin
 
 Reports
@@ -11,6 +8,8 @@ output
 
 !output/.gitkeep
 build
+
+.gradle
 
 .classpath
 

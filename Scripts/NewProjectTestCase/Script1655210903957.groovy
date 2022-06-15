@@ -22,4 +22,3 @@ CucumberKW.runFeatureFile('Include/features/LoginOnWebsite.feature')
 def tearDown() {
 	WebUI.closeBrowser()
 }
-
