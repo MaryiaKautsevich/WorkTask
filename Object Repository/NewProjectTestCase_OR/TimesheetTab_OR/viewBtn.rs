@@ -11,14 +11,14 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='btnView']</value>
+         <value>//*[@id='btnView']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#btnView</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>594b74ce-820e-423f-b5b9-26cf395737b3</webElementGuid>
+      <webElementGuid>69133de9-a64a-4739-8c7d-bf5e49bf4da2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4c5659c8-e622-4d87-8289-e71c37f81380</webElementGuid>
+      <webElementGuid>61a55215-2dfc-4b1d-b878-dcf21f888f38</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>class</name>
       <type>Main</type>
       <value>hover</value>
-      <webElementGuid>9c9ad556-39c2-4005-8753-e3079bf4bab3</webElementGuid>
+      <webElementGuid>69f6b155-853b-4400-88e4-0af1fab8d679</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +50,7 @@
       <name>id</name>
       <type>Main</type>
       <value>btnView</value>
-      <webElementGuid>dde111cc-079f-4226-b96a-07336866d509</webElementGuid>
+      <webElementGuid>7d7d0ec2-5de1-451e-ae1a-02aa7e34ac09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>value</name>
       <type>Main</type>
       <value>View</value>
-      <webElementGuid>6295af3f-0e70-42cb-ba07-240bc6735e80</webElementGuid>
+      <webElementGuid>355c7f37-2f56-476e-a55c-2d62d2a25b7a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +66,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;btnView&quot;)</value>
-      <webElementGuid>e9a3f809-70c4-4955-adda-9c78f3b5c153</webElementGuid>
+      <webElementGuid>303554f0-2d5d-47c4-9161-ea3b8098b1ee</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='btnView']</value>
-      <webElementGuid>f81cc2c4-fc4a-442d-bef7-3ee2e02db83a</webElementGuid>
+      <webElementGuid>9775163b-d892-422b-b6ea-992c86763527</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='employeeSelectForm']/fieldset/p/input</value>
-      <webElementGuid>d5620541-b2d8-4bbc-8ed3-02d0c5aa6e5a</webElementGuid>
+      <webElementGuid>b8c7852f-adcf-4674-8799-d096be540b6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p/input</value>
-      <webElementGuid>3839eae5-05c2-491b-8be1-5afcc6cee5d0</webElementGuid>
+      <webElementGuid>b64dce3e-37e3-454c-91ba-84723fa9983c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'button' and @id = 'btnView']</value>
-      <webElementGuid>b6e993df-001a-4346-8b56-9ca34e24b861</webElementGuid>
+      <webElementGuid>25fb4b98-a58d-4d6a-948d-162d71e39ec9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

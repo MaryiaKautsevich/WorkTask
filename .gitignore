@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-=======
 .gradle
 
->>>>>>> branch 'master' of https://github.com/MaryiaKautsevich/WorkTask.git
 bin
 
 Reports
@@ -13,8 +10,6 @@ output
 
 !output/.gitkeep
 build
-
-.gradle
 
 .classpath
 

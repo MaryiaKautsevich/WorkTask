@@ -6,12 +6,12 @@
    <elementGuidId>ae151ecc-fd81-47d1-b906-f98e9fd0146a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//form[@id='employeeSelectForm']/fieldset/ol/li/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.validation-error</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id='employee']/following-sibling::span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>452f502a-dce7-4691-ab8d-a11344b2f910</webElementGuid>
+      <webElementGuid>f33ab356-7bc5-47fd-8741-4c257d77729e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>for</name>
       <type>Main</type>
       <value>employee</value>
-      <webElementGuid>b20dfb9d-91ae-4d11-a174-bf4f57dc053a</webElementGuid>
+      <webElementGuid>83a1f3d8-6007-46e4-be43-89f451ba55f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>generated</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e3a941f9-d976-4fb5-93fb-edd10af828ac</webElementGuid>
+      <webElementGuid>fd3558ec-5c2c-41f9-b26f-f59576cd4256</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>validation-error</value>
-      <webElementGuid>9985ec76-774d-4231-9c5a-899102e334aa</webElementGuid>
+      <webElementGuid>619d933d-9ee8-4ca4-92a2-5e78d9aebb29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Required</value>
-      <webElementGuid>70cef349-c526-4558-856b-15dfc1b35471</webElementGuid>
+      <webElementGuid>b080fa23-2ae7-4d3a-adaa-720ee6b1feea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;employeeSelectForm&quot;)/fieldset[1]/ol[1]/li[1]/span[@class=&quot;validation-error&quot;]</value>
-      <webElementGuid>28ce36dc-45b1-49dd-a241-3b6d15787023</webElementGuid>
+      <webElementGuid>4ff87214-643b-47a5-952a-2fff4c298bf3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//form[@id='employeeSelectForm']/fieldset/ol/li/span</value>
-      <webElementGuid>fa928156-e753-4ae2-bda7-b4ddbb785ff9</webElementGuid>
+      <webElementGuid>d842cc8e-a9cc-4e87-8e4c-44005e7dda49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::span[1]</value>
-      <webElementGuid>622f52e2-5040-4224-8ca4-2d14a8fd4f24</webElementGuid>
+      <webElementGuid>510dc5ed-40a0-4534-8f4e-afff00e4d0ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::span[1]</value>
-      <webElementGuid>a8ad4d7d-3866-4f89-a28e-2c28b7a9a728</webElementGuid>
+      <webElementGuid>e304392c-b1c6-486c-b873-bd85946c7ac8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Required']/parent::*</value>
-      <webElementGuid>db5db50b-4628-44af-b72f-b280eb35f8f6</webElementGuid>
+      <webElementGuid>64eb564c-060d-4cd1-9d03-9e38e5cd71b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li/span</value>
-      <webElementGuid>aa558e3d-c8b9-4ae3-9991-748f8753b356</webElementGuid>
+      <webElementGuid>6f954e0b-ab48-45ef-ba89-55b9e4c3c9a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Required' or . = 'Required')]</value>
-      <webElementGuid>72180272-52c2-4e3a-90fe-ab00c4c9138f</webElementGuid>
+      <webElementGuid>bd6fd8f7-ff94-4fab-9e35-a40bea99daa8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

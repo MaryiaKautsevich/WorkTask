@@ -18,12 +18,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 
+import groovy.json.StringEscapeUtils
+import groovy.time.TimeDuration
 import internal.GlobalVariable
 
 public class DashboardTab {
 
+	private static final int TIMEOUT_5 = 5;
+
 	def boolean isImageDisplayed() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/DashboardTab_OR/timesheetLabel'), 5)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/DashboardTab_OR/timesheetLabel'), TIMEOUT_5)
 	}
 
 	def clickTimesheetBtn() {

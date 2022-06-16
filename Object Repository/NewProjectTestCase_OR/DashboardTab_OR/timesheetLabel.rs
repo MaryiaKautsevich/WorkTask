@@ -6,11 +6,11 @@
    <elementGuidId>5205588c-526c-497c-94d1-883d04ebc4df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='dashboard-quick-launch-panel-menu_holder']/table/tbody/tr/td[3]/div/a/img</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>XPATH</key>
+         <value>//a[contains(@href, 'EmployeeTimesheet')]//*[contains(@src, 'MyTimesheet')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>6fa38633-dcbb-44aa-9777-45e5f2636d29</webElementGuid>
+      <webElementGuid>34efb880-a6e6-4575-b893-76f6073c1a6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -29,7 +29,7 @@
       <name>src</name>
       <type>Main</type>
       <value>/webres_62a4f22bde6996.45987902/orangehrmTimePlugin/images/MyTimesheet.png</value>
-      <webElementGuid>b1da3bbe-e168-4331-a524-3e80e8c09d8b</webElementGuid>
+      <webElementGuid>865a90bf-8cc8-4ff7-bbeb-fe281a037bfb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dashboard-quick-launch-panel-menu_holder&quot;)/table[@class=&quot;quickLaungeContainer&quot;]/tbody[1]/tr[1]/td[3]/div[@class=&quot;quickLaunge&quot;]/a[1]/img[1]</value>
-      <webElementGuid>63aad7df-47a3-4cec-a2f5-487ba91efdb4</webElementGuid>
+      <webElementGuid>f9a34578-fac1-4259-8cd9-71c28ec7bec8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dashboard-quick-launch-panel-menu_holder']/table/tbody/tr/td[3]/div/a/img</value>
-      <webElementGuid>f3856a34-f1df-4b15-80ce-91805c676f1e</webElementGuid>
+      <webElementGuid>074499fb-c2b7-4401-b1c8-a0daefc15c54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td[3]/div/a/img</value>
-      <webElementGuid>3491477d-e072-4758-909b-80c461341558</webElementGuid>
+      <webElementGuid>f94f1675-689f-4e7e-9168-4e72d840a84c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +61,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = '/webres_62a4f22bde6996.45987902/orangehrmTimePlugin/images/MyTimesheet.png']</value>
-      <webElementGuid>54000a25-8e30-4159-ae35-6a31cdb75327</webElementGuid>
+      <webElementGuid>5d47310a-7b00-4b2a-8eb1-f9d14fe91cf0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

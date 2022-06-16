@@ -21,16 +21,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class TimesheetTab {
+	private static final int TIMEOUT_5 = 5;
 
 	def clickViewBtn() {
 		WebUI.click(findTestObject('Object Repository/NewProjectTestCase_OR/TimesheetTab_OR/viewBtn'));
 	}
 
 	def boolean isBtnDisplayed() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/TimesheetTab_OR/viewBtn'), 5);
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/TimesheetTab_OR/viewBtn'), TIMEOUT_5);
 	}
 
 	def boolean isRequiredTextDisplayed() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/TimesheetTab_OR/requiredText'), 5);
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/TimesheetTab_OR/requiredText'), TIMEOUT_5);
 	}
 }

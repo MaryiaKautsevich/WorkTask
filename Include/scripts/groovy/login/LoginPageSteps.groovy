@@ -49,23 +49,13 @@ class LoginPageSteps {
 		loginPage=new LoginPage()
 	}
 
-	@Given("User open OrangeHRM portal")
-	def openPortal() {
-		WebUI.openBrowser('https://opensource-demo.orangehrmlive.com/');
-		WebUI.maximizeWindow();
-	}
-
-	@When("I enter (.*) login on Login page")
-	def enterLogin(String login) {
+	@When("I enter (.*) login and (.*) password on Login page")
+	def enterLoginAndPassword(String login, String password) {
 		loginPage.setLoginInField(login);
-	}
-
-	@And("I enter (.*) password on Login page")
-	def enterPassword(String password) {
 		loginPage.setPasswordInField(password);
 	}
 
-	@When("I click Login button on Login page")
+	@When("I click 'Login' button on Login page")
 	def clickBtn() {
 		loginPage.clickLoginBtn();
 	}

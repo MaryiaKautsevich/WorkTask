@@ -37,7 +37,6 @@ import com.kms.katalon.core.util.KeywordUtil
 
 import com.kms.katalon.core.webui.exception.WebElementNotFoundException
 
-import cucumber.api.java.en.And
 import cucumber.api.java.en.Given
 import cucumber.api.java.en.Then
 import cucumber.api.java.en.When
@@ -49,18 +48,18 @@ class TimesheetTabSteps {
 		timesheetTab = new TimesheetTab()
 	}
 
-	@When("I click on View button on Timesheet tab")
+	@When("I click on 'View' button on Timesheet tab")
 	def clickViewBtn() {
 		timesheetTab.clickViewBtn();
 	}
 
-	@Then("I check that View button is present on Timesheet tab")
+	@Then("I check that 'View' button is present on Timesheet tab")
 	def checkButtonOnPage() {
-		assert timesheetTab.isBtnDisplayed() : "View button not present on Timesheet tab";
+		timesheetTab.isBtnDisplayed();
 	}
 
-	@Then("I check that Required text displayed on Timesheet tab")
+	@Then("I check that 'Required' text displayed on Timesheet tab")
 	def checkThatTextPresent() {
-		assert timesheetTab.isRequiredTextDisplayed() : "Required text is not displayed on Timesheet tab";
+		timesheetTab.isRequiredTextDisplayed();
 	}
 }
