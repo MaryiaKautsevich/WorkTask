@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "064F5F5FB83E61003CF827A9A9F1364D",
+  "keywordClasses": [
+    {
+      "name": "login.LoginPageSteps",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

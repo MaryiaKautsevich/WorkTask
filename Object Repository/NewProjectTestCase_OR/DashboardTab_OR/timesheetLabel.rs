@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>timesheetLabel</name>
+   <tag></tag>
+   <elementGuidId>5205588c-526c-497c-94d1-883d04ebc4df</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[contains(@href, 'EmployeeTimesheet')]//*[contains(@src, 'MyTimesheet')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>34efb880-a6e6-4575-b893-76f6073c1a6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/webres_62a4f22bde6996.45987902/orangehrmTimePlugin/images/MyTimesheet.png</value>
+      <webElementGuid>865a90bf-8cc8-4ff7-bbeb-fe281a037bfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dashboard-quick-launch-panel-menu_holder&quot;)/table[@class=&quot;quickLaungeContainer&quot;]/tbody[1]/tr[1]/td[3]/div[@class=&quot;quickLaunge&quot;]/a[1]/img[1]</value>
+      <webElementGuid>f9a34578-fac1-4259-8cd9-71c28ec7bec8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dashboard-quick-launch-panel-menu_holder']/table/tbody/tr/td[3]/div/a/img</value>
+      <webElementGuid>074499fb-c2b7-4401-b1c8-a0daefc15c54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/div/a/img</value>
+      <webElementGuid>f94f1675-689f-4e7e-9168-4e72d840a84c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/webres_62a4f22bde6996.45987902/orangehrmTimePlugin/images/MyTimesheet.png']</value>
+      <webElementGuid>5d47310a-7b00-4b2a-8eb1-f9d14fe91cf0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
