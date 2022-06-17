@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'5'</initValue>
+      <initValue>5</initValue>
       <name>TIMEOUT_5</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

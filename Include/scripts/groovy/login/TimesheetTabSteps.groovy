@@ -48,17 +48,20 @@ class TimesheetTabSteps {
 		timesheetTab = new TimesheetTab()
 	}
 
-	@When("I click on 'View' button on Timesheet tab")
-	def clickViewBtn() {
-		timesheetTab.clickViewBtn();
+	@When("I click on '(.*)' button on Timesheet tab")
+	def clickViewBtn(def value) {
+		if(value.equals('View')){
+			timesheetTab.clickViewBtn();
+		}
 	}
 
-	@Then("I check that 'View' button is present on Timesheet tab")
+	@Then("I check that button is present on Timesheet tab")
 	def checkButtonOnPage() {
-		timesheetTab.isBtnDisplayed();
-	}
+			timesheetTab.isBtnDisplayed();
+		}
+	
 
-	@Then("I check that 'Required' text displayed on Timesheet tab")
+	@Then("I check that text displayed on Timesheet tab")
 	def checkThatTextPresent() {
 		timesheetTab.isRequiredTextDisplayed();
 	}

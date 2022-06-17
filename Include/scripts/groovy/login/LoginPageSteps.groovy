@@ -4,6 +4,9 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 
+import java.lang.invoke.SwitchPoint
+import java.text.BreakIterator
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.checkpoint.CheckpointFactory
@@ -22,6 +25,7 @@ import internal.GlobalVariable
 
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
+import org.apache.poi.hssf.record.PageBreakRecord.Break
 import org.openqa.selenium.By
 
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
@@ -49,14 +53,16 @@ class LoginPageSteps {
 		loginPage=new LoginPage()
 	}
 
-	@When("I enter (.*) login and (.*) password on Login page")
+	@When("I enter '(.*)' login and '(.*)' password on Login page")
 	def enterLoginAndPassword(String login, String password) {
 		loginPage.setLoginInField(login);
 		loginPage.setPasswordInField(password);
 	}
 
-	@When("I click 'Login' button on Login page")
-	def clickBtn() {
+	@When("I click '(.*)' button on Login page")
+	def clickBtn(def button) {
+		if(button.equals('Login')) {
 		loginPage.clickLoginBtn();
+		}
 	}
 }

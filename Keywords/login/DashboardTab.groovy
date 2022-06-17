@@ -6,6 +6,8 @@ import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
+import java.security.PrivateKey
+
 import com.kms.katalon.core.annotation.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
@@ -17,17 +19,17 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import com.kms.katalon.entity.global.GlobalVariableEntity
 
 import groovy.json.StringEscapeUtils
 import groovy.time.TimeDuration
 import internal.GlobalVariable
 
 public class DashboardTab {
-
-	private static final int TIMEOUT_5 = 5;
+	private final int TIMEOUT_5 = 5;
 
 	def boolean isImageDisplayed() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/DashboardTab_OR/timesheetLabel'), TIMEOUT_5)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/NewProjectTestCase_OR/DashboardTab_OR/timesheetLabel'), TIMEOUT_5);
 	}
 
 	def clickTimesheetBtn() {
